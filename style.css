@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+body {
+  font-family: Montserrat;
+  font-weight: 400;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-weight: 400 !important;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.text-link::after{
+  content: "";
+  display: block;
+  width: 0px;
+  height:1px;
+  background-color: black;
+  transition: all 500ms ease-out;
+}
+
+.text-link:hover:after{
+  width: 100%;
+}
+
+.hero {
+  height: 550px;
+}
+
+.home-hero {
+  background: url("assets/homeHero.png") no-repeat center center;
+  background-size: cover;
+}
+
+.blend-difference {
+  color: white;
+  mix-blend-mode: difference;
+}
+
+.mt-large {
+  margin-top: 160px;
+}
+
+.bg-gray {
+  background-color: #F7F7F7;
+}

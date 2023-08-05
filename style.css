@@ -48,3 +48,9 @@ a {
 .bg-gray {
   background-color: #F7F7F7;
 }
+
+@media (max-width: 576px)  {
+  .h-sm-30 {
+    height: 300px !important;
+  }
+}

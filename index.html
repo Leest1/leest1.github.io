@@ -9,11 +9,11 @@
     <link href="./style.css" rel="stylesheet">
   </head>
   <body>
-    <div class="container-fluid">
-      <div class="row">
+    <div class="container-fluid p-0">
+      <div class="row p-0">
 <!-- NAVIGATION -->
-        <div class="col-2">
-          <div class="sticky-top p-2 pt-4">
+        <div class="col-12 col-lg-2 p-0">
+          <div class="sticky-top p-4">
             <nav class="d-flex flex-column gap-3">
               <div class="text-uppercase fs-5">Shannon Lee</div>
               <a class="text-uppercase fs-6 text-link d-inline-block" href="#">About</a>
@@ -54,9 +54,9 @@
             </nav>
           </div>
         </div>
-        <div class="col-10 pe-0 gap-2 d-flex flex-column">
+        <div class="col-12 p-0 gap-2 d-flex flex-column col-lg-10">
 <!-- HERO -->
-          <div class="w-100 hero home-hero d-flex flex-column align-items-center">
+          <div class="w-100 hero home-hero d-flex flex-column align-items-center p-4 m-0">
             <h1 class="text-uppercase blend-difference mt-large text-center">
               Designer ∙ Programmer ∙ Artist
             </h1>
@@ -66,11 +66,11 @@
           </div>
 
 <!-- ABOUT ME -->
-          <div class="w-100 row">
-            <div class="col-5">
-              <img src="assets/shannonLee.png" class="w-100 h-100"/>
+          <div class="w-100 row p-0 m-0">
+            <div class="col-12 col-sm-5 order-sm-first order-last p-0">
+              <img src="assets/shannonLee.png" class="w-100 h-100 object-fit-cover h-sm-30"/>
             </div>
-            <div class="col-7 pt-5 ps-4 pe-5 pb-5">
+            <div class="col-12 col-sm-7 p-5">
               <h2 class="text-uppercase">Who am I?</h2>
               <p>Nice to meet you! I’m Shannon Lee and I’m a UX/UI Designer with a B.S. in computer science. I have industry experience as a UI/UX designer and software engineer. My goal is to develop accessible products that spark delight.
               </p>
@@ -83,15 +83,15 @@
           </div>
 
 <!-- SKILLS / EXPERIENCE / EDUCATION -->
-          <div class="w-100 row">
-            <div class="col-4 p-4 gap-2 d-flex flex-column">
+          <div class="w-100 row m-0 gx-2">
+            <div class="col-sm-4 col-12 p-4 gap-2 d-flex flex-column">
               <h3 class="text-uppercase">
                 Skills
               </h3>
               <p>Atomic Design, Visual Prototyping, Wireframing, Interaction Design, UI Design, Usability Testing, Heuristic Evaluation, User Testing, User Research, User Centered Design</p>
               <p>Python, Java, C++, HTML5, CSS, Javascript, JQuery, SQL, Bootstrap</p>
             </div>
-            <div class="col-4 p-4 gap-2 d-flex flex-column">
+            <div class="col-sm-4 col-12 p-4 gap-2 d-flex flex-column">
               <h3 class="text-uppercase">
                 Experience
               </h3>
@@ -106,7 +106,7 @@
                 <div>Software Engineer (Full-Stack)</div>
               </div>
             </div>
-            <div class="col-4 p-4 gap-2 d-flex flex-column">
+            <div class="col-sm-4 col-12 p-4 gap-2 d-flex flex-column">
               <h3 class="text-uppercase">
                 Education
               </h3>
@@ -124,7 +124,7 @@
           </div>
 
 <!-- PORTFOLIO -->
-          <div class="w-100 bg-gray p-5 d-flex flex-column gap-4 align-items-center">
+          <div class="w-100 m-0 bg-gray p-5 d-flex flex-column gap-4 align-items-center">
             <h2 class="text-uppercase">Portfolio</h2>
 <!-- website design -->
             <div class="d-flex flex-column align-items-start w-100 gap-4">
@@ -157,7 +157,7 @@
               <h3 class="text-uppercase">UI/UX Projects</h3>
               <div class="row w-100">
                 <div class="col-3">
-                  <img src="assets/caseStudies/mdes.png" class="w-100 h-100"/>
+                  <img src="assets/caseStudies/mdes.png" class="w-100 h-100 object-fit-cover"/>
                 </div>
                 <div class="col-9 p-3 ps-4 d-flex flex-column gap-2">
                   <div class="w-100 d-flex flex-row justify-content-between">
@@ -169,7 +169,7 @@
               </div>
               <div class="row w-100">
                 <div class="col-3">
-                  <img src="assets/caseStudies/nomnoms.jpeg" class="w-100 h-100"/>
+                  <img src="assets/caseStudies/nomnoms.jpeg" class="w-100 h-100 object-fit-cover"/>
                 </div>
                 <div class="col-9 p-3 ps-4 d-flex flex-column gap-2">
                   <div class="w-100 d-flex flex-row justify-content-between">
@@ -181,7 +181,7 @@
               </div>
               <div class="row w-100">
                 <div class="col-3">
-                  <img src="assets/caseStudies/pradohealth.png" class="w-100 h-100"/>
+                  <img src="assets/caseStudies/pradohealth.png" class="w-100 h-100 object-fit-cover"/>
                 </div>
                 <div class="col-9 p-3 ps-4 d-flex flex-column gap-2">
                   <div class="w-100 d-flex flex-row justify-content-between">
@@ -194,8 +194,8 @@
             </div>
           </div>
 <!-- CONTACT ME -->
-          <div class="w-100 row pe-0">
-            <div class="col-7 pt-5 ps-4 pe-5 pb-5 d-flex flex-column gap-2">
+          <div class="w-100 row pe-0 m-0">
+            <div class="col-sm-7 col-12 p-5 d-flex flex-column gap-2">
               <h2 class="text-uppercase">Contact Me!</h2>
               <p>I am looking for a position where I can help solve real user problems and create delightful and accessible products. I want to work with people that challenge each other to think of innovative and creative solutions, and build intuitive, problem-solving applications.
               </p>
@@ -261,8 +261,8 @@
                 </div>
               </div>
             </div>
-            <div class="col-5 pe-0">
-              <img src="assets/contactMe.png" class="w-100 h-100"/>
+            <div class="col-sm-5 col-12 pe-0">
+              <img src="assets/contactMe.png" class="w-100 h-100 object-fit-cover h-sm-30"/>
             </div>
           </div>
         </div>

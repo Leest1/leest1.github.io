@@ -32,22 +32,22 @@ a {
 }
 
 .home-hero {
-  background: url("assets/heros/homeHero.png") no-repeat center center;
+  background: url("assets/heros/homeHero.webp") no-repeat center center;
   background-size: cover;
 }
 
 .websitesHero {
-  background: url("assets/heros/webDesignHero.png") no-repeat center center;
+  background: url("assets/heros/webDesignHero.webp") no-repeat center center;
   background-size: cover;
 }
 
 .projectsHero {
-  background: url("assets/heros/projectsHero.png") no-repeat center center;
+  background: url("assets/heros/projectsHero.webp") no-repeat center center;
   background-size: cover;
 }
 
 .aboutHero {
-  background: url("assets/heros/aboutHero.png") no-repeat center center;
+  background: url("assets/heros/aboutHero2.webp") no-repeat center center;
   background-size: cover;
 }
 

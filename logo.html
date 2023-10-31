@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>UI/UX Projects | Shannon Lee</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- gallery js -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/galleria/1.6.1/galleria.min.js"></script>
+    <link rel=”stylesheet” type=”text/css” href=”https://cdnjs.cloudflare.com/ajax/libs/galleria/1.5.7/themes/fullscreen/galleria.folio.min.css” />
+    <!-- HTML components -->
+    <script src="components/header.js" type="text/javascript" defer></script>
+    <script src="components/footer.js" type="text/javascript" defer></script>
+    <script src="components/contact.js" type="text/javascript" defer></script>
+    <link href="./style.css" rel="stylesheet">
+    <link rel="icon" type="image/svg+xml" href="./assets/lee.svg">
+  </head>
+  <body>
+    <main class="container-fluid container-xxl p-0 bg-white">
+      <div class="row p-0">
+<!-- NAVIGATION -->
+        <div class="col-12 col-lg-2 navigation bg-white">
+          <header-component></header-component>
+        </div>
+        <div class="col-12 p-0 gap-2 d-flex flex-column col-lg-10">
+<!-- HERO -->
+          <div class="w-100 hero logoHero d-flex flex-column align-items-center p-4 m-0">
+            <div class="subpageHeroContainer mt-m">
+                <h1 class="text-uppercase text-center text-white">
+                  Logo Design
+                </h1>
+                <div class="text-uppercase text-center text-white">
+                  based in Irvine, CA
+                </div>
+            </div>
+          </div>
+
+<!-- LOGOS -->
+          <div class="w-100 m-0 p-5 d-flex flex-column gap-4 align-items-start">
+            <p>All logo rights belong to their respective owners. Please do not use without permission.</p>
+            <div class="w-100">
+                <div class="galleria w-100">
+                    <img src="assets/logo/bylt-displays.png">
+                    <img src="assets/logo/newwavedisplays.png">
+                    <img src="assets/logo/peak-1.png">
+                    <img src="assets/logo/peak-2.png">
+                    <img src="assets/logo/boyd-recovery.png">
+                    <img src="assets/logo/inner-minds-health.png">
+                    <script>
+                        (function() {
+                            Galleria.loadTheme('https://cdnjs.cloudflare.com/ajax/libs/galleria/1.6.1/themes/folio/galleria.folio.min.js');
+                            Galleria.run('.galleria');
+                            }());
+                        </script>
+                </div>
+            </div>
+          </div>
+
+<!-- CONTACT ME -->
+          <contact-component></contact-component>
+        </div>
+      </div>
+    </main>
+    <footer-component></footer-component>
+  </body>
+</html>

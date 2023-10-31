@@ -51,6 +51,11 @@ a {
   background-size: cover;
 }
 
+.logoHero {
+  background: url("assets/heros/logoHero.webp") no-repeat center center;
+  background-size: cover;
+}
+
 .text-white {
   color: #FFFFFF;
 }
@@ -58,10 +63,6 @@ a {
 .blend-difference {
   color: white;
   mix-blend-mode: difference;
-}
-
-.relative {
-  position: relative;
 }
 
 .tooltip--bottom-right {
@@ -83,6 +84,24 @@ a {
 
 .tooltip--container:hover .tooltip--bottom-right {
   opacity: 1;
+}
+
+.galleria {
+  width: 1120px;
+  height: 1000px;
+}
+
+body .galleria-thumbnails .galleria-image { 
+  width:325px !important;
+}
+
+.galleria-theme-folio .galleria-stage {
+  background: rgba(0,0,0,0.75);
+}
+
+/* HELPER CLASSES */
+.relative {
+  position: relative;
 }
 
 .mt-large {
@@ -169,7 +188,7 @@ a {
   .navigation {
     position: sticky;
     top: 0;
-    z-index: 99999;
+    z-index: 999;
     box-shadow: 0px 4px 16px rgba(0,0,0,0.05);
   }
 

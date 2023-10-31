@@ -25,6 +25,7 @@ class Header extends HTMLElement {
                     <div class="d-flex flex-column gap-3 px-2 py-3">
                         <div><a class="text-uppercase text-link d-inline-block fs-7" href="./websiteDesign.html">Website Design</a></div>
                         <div><a class="text-uppercase text-link d-inline-block fs-7" href="./projects.html">UI/UX Projects</a></div>
+                        <div><a class="text-uppercase text-link d-inline-block fs-7" href="./logo.html">Logo Design</a></div>
                     </div>
                     </div>
                 </div>
@@ -95,6 +96,9 @@ class Header extends HTMLElement {
                     </div>
                     <div>
                         <a class="text-uppercase text-link d-inline-block fs-6" href="./projects.html">UI/UX Projects</a>
+                    </div>
+                    <div>
+                        <a class="text-uppercase text-link d-inline-block fs-6" href="./logo.html">Logo Design</a>
                     </div>
                     <div class="d-flex flex-row gap-4 mt-2">
                         <a href="mailto:shannontlee96@gmail.com" style="width:32px">

@@ -56,6 +56,11 @@ a {
   background-size: cover;
 }
 
+.bg--MDES {
+  background: url("./assets/caseStudies/mdes.webp") no-repeat center center;
+  background-size: cover;
+}
+
 .text-white {
   color: #FFFFFF;
 }
@@ -124,6 +129,10 @@ body .galleria-thumbnails .galleria-image {
   font-size: 14px;
 }
 
+.overflow--hidden {
+  overflow: hidden;
+}
+
 .card--portfolio-img {
   max-height: 175px;
 }
@@ -150,10 +159,29 @@ body .galleria-thumbnails .galleria-image {
 .subpageHeroContainer {
   background-color: rgba(0,0,0,0.75);
   padding: 5rem 7rem;
+  max-width: 600px;
 }
 
 .offcanvas {
   width: 250px !important;
+}
+
+/* Case study Accordion overwrites */
+#accordionCaseStudy .accordion-button {
+  padding: 0px;
+  border: none;
+  box-shadow: none;
+}
+
+#accordionCaseStudy .accordion-item {
+  background-color: transparent;
+  box-shadow: none;
+  border: none;
+  margin-bottom: 4rem;
+}
+
+#accordionCaseStudy .accordion-button:not(.collapsed) {
+  background-color: transparent;
 }
 
 @media (max-width: 576px)  {

@@ -24,7 +24,7 @@ class Contact extends HTMLElement {
                 </a>
                 </div>
                 <div class="d-flex flex-row align-items-center gap-2">
-                <a href="./assets/ShannonLee.pdf" target="_blank">
+                <a href="/assets/ShannonLee.pdf" target="_blank">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <mask id="mask0_52_406" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
                     <rect width="24" height="24" fill="#D9D9D9"/>
@@ -73,7 +73,7 @@ class Contact extends HTMLElement {
                 </div>
             </div>
             <div class="col-sm-5 col-12 pe-0">
-                <img src="assets/contactMe.webp" class="w-100 h-100 object-fit-cover h-sm-30"/>
+                <img src="/assets/contactMe.webp" class="w-100 h-100 object-fit-cover h-sm-30"/>
             </div>
         </div>
         `

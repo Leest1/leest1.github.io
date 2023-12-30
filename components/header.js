@@ -9,10 +9,10 @@ class Header extends HTMLElement {
             <nav class="d-flex flex-lg-column gap-4">
                 <div class="d-flex flex-lg-column gap-lg-3 flex-row gap-5 textNavigation">
                 <div>
-                    <a class="text-uppercase fs-5 text-link d-inline-block" href="./index.html">Shannon L.</a>
+                    <a class="text-uppercase fs-5 text-link d-inline-block" href="/index.html">Shannon L.</a>
                 </div>
                 <div class="navLink">
-                    <a class="text-uppercase fs-6 text-link d-inline-block" href="./about.html">About</a>
+                    <a class="text-uppercase fs-6 text-link d-inline-block" href="/about.html">About</a>
                 </div>
                 <div class="navLink">
                     <div class="d-flex flex-row gap-2 align-items-center" data-toggle="collapse" data-target="#portfolioCollapse" role="button" aria-expanded="false" aria-controls="portfolioCollapse">
@@ -23,9 +23,9 @@ class Header extends HTMLElement {
                     </div>
                     <div id="portfolioCollapse" class="collapse">
                     <div class="d-flex flex-column gap-3 px-2 py-3">
-                        <div><a class="text-uppercase text-link d-inline-block fs-7" href="./websiteDesign.html">Website Design</a></div>
-                        <div><a class="text-uppercase text-link d-inline-block fs-7" href="./projects.html">UI/UX Projects</a></div>
-                        <div><a class="text-uppercase text-link d-inline-block fs-7" href="./logo.html">Logo Design</a></div>
+                        <div><a class="text-uppercase text-link d-inline-block fs-7" href="/websiteDesign.html">Website Design</a></div>
+                        <div><a class="text-uppercase text-link d-inline-block fs-7" href="/projects.html">UI/UX Projects</a></div>
+                        <div><a class="text-uppercase text-link d-inline-block fs-7" href="/logo.html">Logo Design</a></div>
                     </div>
                     </div>
                 </div>
@@ -52,7 +52,7 @@ class Header extends HTMLElement {
                     <div class="tooltip--bottom-right tooltip--bottom-left-m">
                         View my Resume
                     </div>
-                    <a href="./assets/ShannonLee.pdf" target="_blank">
+                    <a href="/assets/ShannonLee.pdf" target="_blank">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <mask id="mask0_52_406" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
                         <rect width="24" height="24" fill="#D9D9D9"/>
@@ -86,19 +86,19 @@ class Header extends HTMLElement {
                     </div>
                     <div class="offcanvas-body mt-4 align-items-end d-flex flex-column gap-4">
                     <div>
-                        <a class="text-uppercase fs-6 text-link d-inline-block" href="./index.html">Home</a>
+                        <a class="text-uppercase fs-6 text-link d-inline-block" href="/index.html">Home</a>
                     </div>
                     <div>
-                        <a class="text-uppercase fs-6 text-link d-inline-block" href="./about.html">About</a>
+                        <a class="text-uppercase fs-6 text-link d-inline-block" href="/about.html">About</a>
                     </div>
                     <div>
-                        <a class="text-uppercase text-link d-inline-block fs-6" href="./websiteDesign.html">Website Design</a>
+                        <a class="text-uppercase text-link d-inline-block fs-6" href="/websiteDesign.html">Website Design</a>
                     </div>
                     <div>
-                        <a class="text-uppercase text-link d-inline-block fs-6" href="./projects.html">UI/UX Projects</a>
+                        <a class="text-uppercase text-link d-inline-block fs-6" href="/projects.html">UI/UX Projects</a>
                     </div>
                     <div>
-                        <a class="text-uppercase text-link d-inline-block fs-6" href="./logo.html">Logo Design</a>
+                        <a class="text-uppercase text-link d-inline-block fs-6" href="/logo.html">Logo Design</a>
                     </div>
                     <div class="d-flex flex-row gap-4 mt-2">
                         <a href="mailto:shannontlee96@gmail.com" style="width:32px">
@@ -111,7 +111,7 @@ class Header extends HTMLElement {
                         </g>
                         </svg>
                         </a>
-                        <a href="./assets/ShannonLee.pdf" target="_blank" style="width:32px">
+                        <a href="/assets/ShannonLee.pdf" target="_blank" style="width:32px">
                         <svg width="100%" height="100%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <mask id="mask0_52_406" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
                         <rect width="24" height="24" fill="#D9D9D9"/>

@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>UI/UX Projects | Shannon Lee</title>
+    <title>MDES Redesign | Shannon Lee</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -39,7 +39,7 @@
 <!-- the meat -->
           <div class="w-100 m-0 p-5 d-flex flex-column gap-4 align-items-start bg-gray overflow--hidden">
             <h2 data-aos="fade-down">PROJECT SPECS:</h2>
-            <div>
+            <div data-aos="fade" data-aos-delay="200">
               <p><strong>Time:</strong> 5 weeks</p>
               <p><strong>The Team:</strong> 4 UI/UX developers (including myself)</p>
               <p><strong>My Responsibilities:</strong> Project manager, Facilitator, UX Researcher, UI Designer</p>
@@ -56,21 +56,22 @@
                 <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionCaseStudy">
                   <div class="accordion-body">
                     <div class="d-flex flex-column gap-4 w-75 ps-4 pt-2 pb-2" style="border-left: 4px solid #476393">
-                      <div>
+                      <div data-aos="fade" data-aos-delay="200">
                         <h3 class="text-uppercase fs-6 fw-bold">Who is our client?</h3>
                         <p class="ms-4">Mississippi Department of Employment Security (MDES) works to expand employment, improve workforce skills, and enhance productivity in our state.</p>
                       </div>
-                      <div>
+                      <div data-aos="fade" data-aos-delay="400">
                         <h3 class="text-uppercase fs-6 fw-bold">What are we trying to solve?</h3>
                         <p class="ms-4">Our users are having trouble applying for unemployment aid and navigating our website.</p>
                       </div>
-                      <div>
+                      <div data-aos="fade" data-aos-delay="600">
                         <h3 class="text-uppercase fs-6 fw-bold">Our Mission:</h3>
                         <p class="ms-4">The goal of the Mississippi Department of Employment Security is to <strong>help Mississippians get jobs.</strong></p>
                       </div>
-                      <div>
-                        Identify the issues within the unemployment aid application process, and work to improve it by redesigning the website.
-                      </div>
+                    </div>
+                    <div class="mt-5" data-aos="fade" data-aos-delay="800">
+                      <h3 class="text-uppercase fs-6 fw-bold">Next Steps:</h3>
+                      <p class="ms-4">Identify the issues within the unemployment aid application process, and work to improve it by redesigning the website.</p>
                     </div>
                   </div>
                 </div>
@@ -86,8 +87,37 @@
                 </h2>
                 <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionCaseStudy">
                   <div class="accordion-body">
-                    <div>
-
+                    <div class="d-flex flex-column gap-5 w-100">
+                      <div class="border-gray border-radius--s d-flex row mt-4">
+                        <div class="p-5 col-12 col-lg-4" style="border-right:#476393 6px solid">
+                          <p class="fs-7">
+                            KAREN FILMORE<br>
+                            Age: 35 y/o<br>
+                            Ethnicity: Caucasian<br>
+                            Occupation: Unemployed<br>
+                            Family: Husband / 2 children
+                          </p>
+                        </div>
+                        <div class="p-5 col-12 col-lg-8">
+                          <h3 class="fs-6"><strong>MEET KAREN</strong></h3>
+                          <p>
+                            Karen was the sole breadwinner, until she got fired during Covid-19 layoffs. She feels anxious for the future of her and her family. She has never filed for unemployment aid before. She's trying to juggle taking care of her newborn and applying to jobs, and navigating the MDES website seems like a daunting task.
+                          </p>
+                        </div>
+                      </div>
+                      <div>
+                        <h3 class="fs-6">NEXT STEPS:</h3>
+                        <div class="flex-column d-flex gap-2">
+                          <div class="flex-row d-flex gap-4">
+                            <div class="number-container">1</div>
+                            <p>Full site audit from the perspective of our user persona.</p>
+                          </div>
+                          <div class="flex-row d-flex gap-4">
+                            <div class="number-container">2</div>
+                            <p>Created our user’s happy path, then brainstormed the potential unhappy paths from that.</p>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -114,10 +144,10 @@
     </main>
     <footer-component></footer-component>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-        <script>
-            AOS.init({
-                duration: 1000,
-            });
-        </script>
+    <script>
+        AOS.init({
+            duration: 2000,
+        });
+    </script>
   </body>
 </html>

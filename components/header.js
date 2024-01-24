@@ -37,7 +37,7 @@ class Header extends HTMLElement {
                     <div class="tooltip--bottom-right tooltip--bottom-left-m">
                         Email Me!
                     </div>
-                    <a href="mailto:shannontlee96@gmail.com">
+                    <a aria-label="Email Shannon Lee" href="mailto:shannontlee96@gmail.com">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <mask id="mask0_52_400" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
                         <rect width="24" height="24" fill="#D9D9D9"/>
@@ -52,7 +52,7 @@ class Header extends HTMLElement {
                     <div class="tooltip--bottom-right tooltip--bottom-left-m">
                         View my Resume
                     </div>
-                    <a href="/assets/ShannonLee.pdf" target="_blank">
+                    <a aria-label="View Shannon's Resume PDF file" href="/assets/ShannonLee.pdf" target="_blank">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <mask id="mask0_52_406" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
                         <rect width="24" height="24" fill="#D9D9D9"/>

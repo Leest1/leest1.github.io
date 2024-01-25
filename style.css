@@ -251,7 +251,9 @@ body .galleria-thumbnails .galleria-image {
   .h-sm-30 {
     height: 300px !important;
   }
+}
 
+@media (max-width: 876px) {
   .navLink, .navIcons {
     display: none;
   }

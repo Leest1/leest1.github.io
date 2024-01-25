@@ -8,27 +8,21 @@ class Header extends HTMLElement {
         <div class="sticky-top p-4">
             <nav class="d-flex flex-lg-column gap-4">
                 <div class="d-flex flex-lg-column gap-lg-3 flex-row gap-5 textNavigation">
-                <div>
-                    <a class="text-uppercase fs-5 text-link d-inline-block" href="/index.html">Shannon L.</a>
-                </div>
-                <div class="navLink">
-                    <a class="text-uppercase fs-6 text-link d-inline-block" href="/about.html">About</a>
-                </div>
-                <div class="navLink">
-                    <div class="d-flex flex-row gap-2 align-items-center" data-toggle="collapse" data-target="#portfolioCollapse" role="button" aria-expanded="false" aria-controls="portfolioCollapse">
-                    <a class="text-uppercase fs-6 text-link d-inline-block">Portfolio</a>
-                    <svg width="8" height="5" viewBox="0 0 8 5" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M4 4.76668L0 0.766675L0.533339 0.233337L4 3.7L7.46666 0.233337L8 0.766675L4 4.76668Z" fill="#1C1B1F"/>
-                    </svg>                    
+                    <div>
+                        <a class="text-uppercase fs-5 text-link d-inline-block" href="/index.html">Shannon L.</a>
                     </div>
-                    <div id="portfolioCollapse" class="collapse">
-                    <div class="d-flex flex-column gap-3 px-2 py-3">
-                        <div><a class="text-uppercase text-link d-inline-block fs-7" href="/websiteDesign.html">Website Design</a></div>
-                        <div><a class="text-uppercase text-link d-inline-block fs-7" href="/projects.html">UI/UX Projects</a></div>
-                        <div><a class="text-uppercase text-link d-inline-block fs-7" href="/logo.html">Logo Design</a></div>
+                    <div class="navLink">
+                        <a class="text-uppercase fs-6 text-link d-inline-block" href="/about.html">About</a>
                     </div>
+                    <div class="navLink">
+                        <a class="text-uppercase text-link d-inline-block fs-7" href="/websiteDesign.html">Website Design</a>
                     </div>
-                </div>
+                    <div class="navLink">
+                        <a class="text-uppercase text-link d-inline-block fs-7" href="/projects.html">UI/UX Projects</a>
+                    </div>
+                    <div class="navLink">
+                    <a class="text-uppercase text-link d-inline-block fs-7" href="/logo.html">Logo Design</a>
+                    </div>
                 </div>
                 <!-- right side -->
                 <div class="navIcons">

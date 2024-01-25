@@ -15,13 +15,13 @@ class Header extends HTMLElement {
                         <a class="text-uppercase fs-6 text-link d-inline-block" href="/about.html">About</a>
                     </div>
                     <div class="navLink">
-                        <a class="text-uppercase text-link d-inline-block fs-7" href="/websiteDesign.html">Website Design</a>
+                        <a class="text-uppercase text-link d-inline-block fs-6" href="/websiteDesign.html">Website Design</a>
                     </div>
                     <div class="navLink">
-                        <a class="text-uppercase text-link d-inline-block fs-7" href="/projects.html">UI/UX Projects</a>
+                        <a class="text-uppercase text-link d-inline-block fs-6" href="/projects.html">UI/UX Projects</a>
                     </div>
                     <div class="navLink">
-                    <a class="text-uppercase text-link d-inline-block fs-7" href="/logo.html">Logo Design</a>
+                    <a class="text-uppercase text-link d-inline-block fs-6" href="/logo.html">Logo Design</a>
                     </div>
                 </div>
                 <!-- right side -->

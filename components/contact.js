@@ -73,7 +73,7 @@ class Contact extends HTMLElement {
                 </div>
             </div>
             <div class="col-sm-5 col-12 pe-0">
-                <img src="/assets/contactMe.webp" class="w-100 h-100 object-fit-cover h-sm-30"/>
+                <img src="/assets/contactMe.webp" class="w-100 h-100 object-fit-cover h-sm-30" alt="A laptop, notbook, mobile phone, and cup on a bed with orange pillows and sheets."/>
             </div>
         </div>
         `

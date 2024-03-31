@@ -9,19 +9,19 @@ class Header extends HTMLElement {
             <nav class="d-flex flex-lg-column gap-4">
                 <div class="d-flex flex-lg-column gap-lg-3 flex-row gap-5 textNavigation">
                     <div>
-                        <a class="text-uppercase fs-5 text-link d-inline-block" href="/index.html">Shannon L.</a>
+                        <a class="text-uppercase fs-5 text-link d-inline-block" href="/index">Shannon L.</a>
                     </div>
                     <div class="navLink">
-                        <a class="text-uppercase fs-6 text-link d-inline-block" href="/about.html">About</a>
+                        <a class="text-uppercase fs-6 text-link d-inline-block" href="/about">About</a>
                     </div>
                     <div class="navLink">
-                        <a class="text-uppercase text-link d-inline-block fs-6" href="/websiteDesign.html">Website Design</a>
+                        <a class="text-uppercase text-link d-inline-block fs-6" href="/websiteDesign">Website Design</a>
                     </div>
                     <div class="navLink">
-                        <a class="text-uppercase text-link d-inline-block fs-6" href="/projects.html">UI/UX Projects</a>
+                        <a class="text-uppercase text-link d-inline-block fs-6" href="/projects">UI/UX Projects</a>
                     </div>
                     <div class="navLink">
-                    <a class="text-uppercase text-link d-inline-block fs-6" href="/logo.html">Logo Design</a>
+                    <a class="text-uppercase text-link d-inline-block fs-6" href="/logo">Logo Design</a>
                     </div>
                 </div>
                 <!-- right side -->
@@ -80,19 +80,19 @@ class Header extends HTMLElement {
                     </div>
                     <div class="offcanvas-body mt-4 align-items-end d-flex flex-column gap-4">
                     <div>
-                        <a class="text-uppercase fs-6 text-link d-inline-block" href="/index.html">Home</a>
+                        <a class="text-uppercase fs-6 text-link d-inline-block" href="/index">Home</a>
                     </div>
                     <div>
-                        <a class="text-uppercase fs-6 text-link d-inline-block" href="/about.html">About</a>
+                        <a class="text-uppercase fs-6 text-link d-inline-block" href="/about">About</a>
                     </div>
                     <div>
-                        <a class="text-uppercase text-link d-inline-block fs-6" href="/websiteDesign.html">Website Design</a>
+                        <a class="text-uppercase text-link d-inline-block fs-6" href="/websiteDesign">Website Design</a>
                     </div>
                     <div>
-                        <a class="text-uppercase text-link d-inline-block fs-6" href="/projects.html">UI/UX Projects</a>
+                        <a class="text-uppercase text-link d-inline-block fs-6" href="/projects">UI/UX Projects</a>
                     </div>
                     <div>
-                        <a class="text-uppercase text-link d-inline-block fs-6" href="/logo.html">Logo Design</a>
+                        <a class="text-uppercase text-link d-inline-block fs-6" href="/logo">Logo Design</a>
                     </div>
                     <div class="d-flex flex-row gap-4 mt-2">
                         <a href="mailto:shannontlee96@gmail.com" style="width:32px">

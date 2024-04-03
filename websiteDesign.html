@@ -6,15 +6,18 @@
     <title>Website Design | Shannon Lee</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <script src="components/header.js" type="text/javascript" defer></script>
-    <script src="components/footer.js" type="text/javascript" defer></script>
-    <script src="components/contact.js" type="text/javascript" defer></script>
+    <script src="db/projects.json"></script>
+    <script src="components/websites.js"></script>
+    <script src="components/header.js" defer></script>
+    <script src="components/footer.js" defer></script>
+    <script src="components/contact.js" defer></script>
     <link href="./style.css" rel="stylesheet">
     <link rel="icon" type="image/svg+xml" href="./assets/lee.svg">
   </head>
+
   <body>
     <main class="container-fluid container-xxl p-0 bg-white">
       <div class="row p-0">
@@ -56,243 +59,16 @@
           </div>
 
 <!-- WEBSITES -->
-          <div class="w-100 m-0 bg-gray p-5 d-flex flex-column gap-4 align-items-start overflow--hidden">
+          <div class="w-100 m-0 bg-gray p-5 d-flex flex-column gap-2 align-items-start overflow--hidden">
             <div class="row w-100">
               <h2 class="text-uppercase" data-aos="fade-down">Websites</h2>
-              <p data-aos="fade" class="fs-7 ms-1">Projects are ordered by newest to oldest</p>
+              <p data-aos="fade" class="fs-7 ms-1">Projects are ordered by newest to oldest. Click to learn more!</p>
             </div>
 
-            <div class="row w-100">
-              <div data-aos="fade-right" class="col-12 col-sm-3">
-                <img src="assets/websitePreviews/preview_Summus.webp" class="w-100 h-100 object-fit-cover card--portfolio-img" alt="A website preview of the first paint of summuslaser.com"/>
+            <div class="container">
+              <div id="websiteList" class="row w-100">
               </div>
-              <div data-aos="fade" class="col-12 col-sm-9 p-4 d-flex flex-column justify-content-between">
-                <div class="w-100">
-                  <div class="d-flex flex-row gap-2">
-                    <h4 class="fs-6 fw-bold">
-                      <a href="https://summuslaser.com/" target="_blank" rel="nofollow noreferrer" class="d-flex flex-row gap-2">
-                        Summus Laser
-                        <svg width="18px" height="18px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <mask id="mask0_130_122" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
-                          <rect width="24" height="24" fill="#D9D9D9"/>
-                          </mask>
-                          <g mask="url(#mask0_130_122)">
-                          <path d="M5.61538 20C5.15513 20 4.77083 19.8458 4.4625 19.5375C4.15417 19.2292 4 18.8449 4 18.3846V5.61537C4 5.15512 4.15417 4.77083 4.4625 4.4625C4.77083 4.15417 5.15513 4 5.61538 4H11.2308V5H5.61538C5.46154 5 5.32052 5.0641 5.1923 5.1923C5.0641 5.32052 5 5.46154 5 5.61537V18.3846C5 18.5385 5.0641 18.6795 5.1923 18.8077C5.32052 18.9359 5.46154 19 5.61538 19H18.3846C18.5385 19 18.6795 18.9359 18.8077 18.8077C18.9359 18.6795 19 18.5385 19 18.3846V12.7692H20V18.3846C20 18.8449 19.8458 19.2292 19.5375 19.5375C19.2292 19.8458 18.8449 20 18.3846 20H5.61538ZM9.73845 14.9692L9.03077 14.2615L18.2923 5H14V4H20V10H19V5.7077L9.73845 14.9692Z" fill="#1C1B1F"/>
-                          </g>
-                        </svg>
-                      </a>
-                    </h4>
-                  </div>
-                  <div>Summus Laser is the leading provider of laser therapy machines. This company was going through a massive rebrand and site overhaul. The main challenge of this site was including both B2B and B2C interfaces, and considering the unique user journeys of each user group.</div>
-                </div>
-              </div>
-            </div>
-            
-            <div class="row w-100">
-              <div data-aos="fade-right" class="col-12 col-sm-3">
-                <img src="assets/websitePreviews/preview_Pierpont.webp" class="w-100 h-100 object-fit-cover card--portfolio-img" alt="A website preview of the first paint of pierpontinn.com"/>
-              </div>
-              <div data-aos="fade" class="col-12 col-sm-9 p-4 d-flex flex-column justify-content-between">
-                <div class="w-100">
-                  <div class="d-flex flex-row gap-2">
-                    <h4 class="fs-6 fw-bold">
-                      <a href="https://pierpontinn.com/" target="_blank" rel="nofollow noreferrer" class="d-flex flex-row gap-2">
-                        Pierpont Inn
-                        <svg width="18px" height="18px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <mask id="mask0_130_122" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
-                          <rect width="24" height="24" fill="#D9D9D9"/>
-                          </mask>
-                          <g mask="url(#mask0_130_122)">
-                          <path d="M5.61538 20C5.15513 20 4.77083 19.8458 4.4625 19.5375C4.15417 19.2292 4 18.8449 4 18.3846V5.61537C4 5.15512 4.15417 4.77083 4.4625 4.4625C4.77083 4.15417 5.15513 4 5.61538 4H11.2308V5H5.61538C5.46154 5 5.32052 5.0641 5.1923 5.1923C5.0641 5.32052 5 5.46154 5 5.61537V18.3846C5 18.5385 5.0641 18.6795 5.1923 18.8077C5.32052 18.9359 5.46154 19 5.61538 19H18.3846C18.5385 19 18.6795 18.9359 18.8077 18.8077C18.9359 18.6795 19 18.5385 19 18.3846V12.7692H20V18.3846C20 18.8449 19.8458 19.2292 19.5375 19.5375C19.2292 19.8458 18.8449 20 18.3846 20H5.61538ZM9.73845 14.9692L9.03077 14.2615L18.2923 5H14V4H20V10H19V5.7077L9.73845 14.9692Z" fill="#1C1B1F"/>
-                          </g>
-                        </svg>
-                      </a>
-                    </h4>
-                  </div>
-                  <div>Pierpont Inn is a historic hotel by the Ventura Pier in California. With it's rich history, my client was looking for a look-and-feel refresh and improved user experience, while preserving the established branding.</div>
-                </div>
-              </div>
-            </div>
-
-            <div class="row w-100">
-              <div data-aos="fade-right" class="col-12 col-sm-3">
-                <img src="assets/websitePreviews/preview_InnerMinds.webp" class="w-100 h-100 object-fit-cover card--portfolio-img" alt="A website preview of the first paint of innermindshealth.com"/>
-              </div>
-              <div data-aos="fade" class="col-12 col-sm-9 p-4 d-flex flex-column justify-content-between">
-                <div class="w-100">
-                  <div class="d-flex flex-row gap-2">
-                    <h4 class="fs-6 fw-bold">
-                      <a href="https://innermindshealth.com/" target="_blank" rel="nofollow noreferrer" class="d-flex flex-row gap-2">
-                        Inner Minds Health
-                        <svg width="18px" height="18px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <mask id="mask0_130_122" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
-                          <rect width="24" height="24" fill="#D9D9D9"/>
-                          </mask>
-                          <g mask="url(#mask0_130_122)">
-                          <path d="M5.61538 20C5.15513 20 4.77083 19.8458 4.4625 19.5375C4.15417 19.2292 4 18.8449 4 18.3846V5.61537C4 5.15512 4.15417 4.77083 4.4625 4.4625C4.77083 4.15417 5.15513 4 5.61538 4H11.2308V5H5.61538C5.46154 5 5.32052 5.0641 5.1923 5.1923C5.0641 5.32052 5 5.46154 5 5.61537V18.3846C5 18.5385 5.0641 18.6795 5.1923 18.8077C5.32052 18.9359 5.46154 19 5.61538 19H18.3846C18.5385 19 18.6795 18.9359 18.8077 18.8077C18.9359 18.6795 19 18.5385 19 18.3846V12.7692H20V18.3846C20 18.8449 19.8458 19.2292 19.5375 19.5375C19.2292 19.8458 18.8449 20 18.3846 20H5.61538ZM9.73845 14.9692L9.03077 14.2615L18.2923 5H14V4H20V10H19V5.7077L9.73845 14.9692Z" fill="#1C1B1F"/>
-                          </g>
-                        </svg>
-                      </a>
-                    </h4>
-                  </div>
-                  <div>Inner Minds Health is a mental health and eating disorder treatment center. In this project, I created their logo and established their company's branding & design language.</div>
-                </div>
-              </div>
-            </div>
-
-            <div class="row w-100">
-              <div data-aos="fade-right" class="col-12 col-sm-3">
-                <img src="assets/websitePreviews/preview_FinishLine.webp" class="w-100 h-100 object-fit-cover card--portfolio-img" alt="A website preview of the first paint of californiarecovers.com"/>
-              </div>
-              <div data-aos="fade" class="col-12 col-sm-9 p-4 d-flex flex-column justify-content-between">
-                <div class="w-100">
-                  <div class="d-flex flex-row gap-2">
-                    <h4 class="fs-6 fw-bold">
-                      <a href="https://californiarecovers.com/" target="_blank" rel="nofollow noreferrer" class="d-flex flex-row gap-2">
-                        Finish Line Recovery
-                        <svg width="18px" height="18px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <mask id="mask0_130_122" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
-                          <rect width="24" height="24" fill="#D9D9D9"/>
-                          </mask>
-                          <g mask="url(#mask0_130_122)">
-                          <path d="M5.61538 20C5.15513 20 4.77083 19.8458 4.4625 19.5375C4.15417 19.2292 4 18.8449 4 18.3846V5.61537C4 5.15512 4.15417 4.77083 4.4625 4.4625C4.77083 4.15417 5.15513 4 5.61538 4H11.2308V5H5.61538C5.46154 5 5.32052 5.0641 5.1923 5.1923C5.0641 5.32052 5 5.46154 5 5.61537V18.3846C5 18.5385 5.0641 18.6795 5.1923 18.8077C5.32052 18.9359 5.46154 19 5.61538 19H18.3846C18.5385 19 18.6795 18.9359 18.8077 18.8077C18.9359 18.6795 19 18.5385 19 18.3846V12.7692H20V18.3846C20 18.8449 19.8458 19.2292 19.5375 19.5375C19.2292 19.8458 18.8449 20 18.3846 20H5.61538ZM9.73845 14.9692L9.03077 14.2615L18.2923 5H14V4H20V10H19V5.7077L9.73845 14.9692Z" fill="#1C1B1F"/>
-                          </g>
-                        </svg>
-                      </a>
-                    </h4>
-                  </div>
-                  <div>Finish Line Recovery is an upscale sober living environment with multiple residences in LA County. The client was looking for rebrand along with their new site.</div>
-                </div>
-              </div>
-            </div>
-
-            <div class="row w-100">
-              <div data-aos="fade-right" class="col-12 col-sm-3">
-                <img src="assets/websitePreviews/preview_AWG.webp" class="w-100 h-100 object-fit-cover card--portfolio-img" alt="A website preview of the first paint of awgderidder.com"/>
-              </div>
-              <div data-aos="fade" class="col-12 col-sm-9 p-4 d-flex flex-column justify-content-between">
-                <div class="w-100">
-                  <div class="d-flex flex-row gap-2">
-                    <h4 class="fs-6 fw-bold">
-                      <a href="https://awgderidder.com/" target="_blank" rel="nofollow noreferrer" class="d-flex flex-row gap-2">
-                        ABC Wellness Group
-                        <svg width="18px" height="18px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <mask id="mask0_130_122" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
-                          <rect width="24" height="24" fill="#D9D9D9"/>
-                          </mask>
-                          <g mask="url(#mask0_130_122)">
-                          <path d="M5.61538 20C5.15513 20 4.77083 19.8458 4.4625 19.5375C4.15417 19.2292 4 18.8449 4 18.3846V5.61537C4 5.15512 4.15417 4.77083 4.4625 4.4625C4.77083 4.15417 5.15513 4 5.61538 4H11.2308V5H5.61538C5.46154 5 5.32052 5.0641 5.1923 5.1923C5.0641 5.32052 5 5.46154 5 5.61537V18.3846C5 18.5385 5.0641 18.6795 5.1923 18.8077C5.32052 18.9359 5.46154 19 5.61538 19H18.3846C18.5385 19 18.6795 18.9359 18.8077 18.8077C18.9359 18.6795 19 18.5385 19 18.3846V12.7692H20V18.3846C20 18.8449 19.8458 19.2292 19.5375 19.5375C19.2292 19.8458 18.8449 20 18.3846 20H5.61538ZM9.73845 14.9692L9.03077 14.2615L18.2923 5H14V4H20V10H19V5.7077L9.73845 14.9692Z" fill="#1C1B1F"/>
-                          </g>
-                        </svg>
-                      </a>
-                    </h4>
-                  </div>
-                  <div>ABC Wellness Group serves as a psychiatric facility dedicated to offering treatment and care to individuals within their community. Their goal was to rebrand along with creating a new website.</div>
-                </div>
-              </div>
-            </div>
-
-            <div class="row w-100">
-              <div data-aos="fade-right" class="col-12 col-sm-3">
-                <img src="assets/websitePreviews/preview_HydrateNow.webp" class="w-100 h-100 object-fit-cover card--portfolio-img" alt="A website preview of the first paint of hydratenow.com"/>
-              </div>
-              <div data-aos="fade" class="col-12 col-sm-9 p-4 d-flex flex-column justify-content-between">
-                <div class="w-100">
-                  <div class="d-flex flex-row gap-2">
-                    <h4 class="fs-6 fw-bold">
-                      <a href="https://hydratenow.com/" target="_blank" rel="nofollow noreferrer" class="d-flex flex-row gap-2">
-                        Hydrate Now
-                        <svg width="18px" height="18px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <mask id="mask0_130_122" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
-                          <rect width="24" height="24" fill="#D9D9D9"/>
-                          </mask>
-                          <g mask="url(#mask0_130_122)">
-                          <path d="M5.61538 20C5.15513 20 4.77083 19.8458 4.4625 19.5375C4.15417 19.2292 4 18.8449 4 18.3846V5.61537C4 5.15512 4.15417 4.77083 4.4625 4.4625C4.77083 4.15417 5.15513 4 5.61538 4H11.2308V5H5.61538C5.46154 5 5.32052 5.0641 5.1923 5.1923C5.0641 5.32052 5 5.46154 5 5.61537V18.3846C5 18.5385 5.0641 18.6795 5.1923 18.8077C5.32052 18.9359 5.46154 19 5.61538 19H18.3846C18.5385 19 18.6795 18.9359 18.8077 18.8077C18.9359 18.6795 19 18.5385 19 18.3846V12.7692H20V18.3846C20 18.8449 19.8458 19.2292 19.5375 19.5375C19.2292 19.8458 18.8449 20 18.3846 20H5.61538ZM9.73845 14.9692L9.03077 14.2615L18.2923 5H14V4H20V10H19V5.7077L9.73845 14.9692Z" fill="#1C1B1F"/>
-                          </g>
-                        </svg>
-                      </a>
-                    </h4>
-                  </div>
-                  <div>HydrateNow is an IV therapy medical spa that offers a variety of services for beauty and wellness. They came to us for a complete rebrand and improved user experience.</div>
-                </div>
-              </div>
-            </div>
-
-            <div class="row w-100">
-              <div data-aos="fade-right" class="col-12 col-sm-3">
-                <img src="assets/websitePreviews/preview_VO.webp" class="w-100 h-100 object-fit-cover card--portfolio-img" alt="A website preview of the first paint of villaoasissandiego.com"/>
-              </div>
-              <div data-aos="fade" class="col-12 col-sm-9 p-4 d-flex flex-column justify-content-between">
-                <div class="w-100">
-                  <div class="d-flex flex-row gap-2">
-                    <h4 class="fs-6 fw-bold">
-                      <a href="https://villaoasissandiego.com/" target="_blank" rel="nofollow noreferrer" class="d-flex flex-row gap-2">
-                        Villa Oasis San Diego
-                        <svg width="18px" height="18px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <mask id="mask0_130_122" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
-                          <rect width="24" height="24" fill="#D9D9D9"/>
-                          </mask>
-                          <g mask="url(#mask0_130_122)">
-                          <path d="M5.61538 20C5.15513 20 4.77083 19.8458 4.4625 19.5375C4.15417 19.2292 4 18.8449 4 18.3846V5.61537C4 5.15512 4.15417 4.77083 4.4625 4.4625C4.77083 4.15417 5.15513 4 5.61538 4H11.2308V5H5.61538C5.46154 5 5.32052 5.0641 5.1923 5.1923C5.0641 5.32052 5 5.46154 5 5.61537V18.3846C5 18.5385 5.0641 18.6795 5.1923 18.8077C5.32052 18.9359 5.46154 19 5.61538 19H18.3846C18.5385 19 18.6795 18.9359 18.8077 18.8077C18.9359 18.6795 19 18.5385 19 18.3846V12.7692H20V18.3846C20 18.8449 19.8458 19.2292 19.5375 19.5375C19.2292 19.8458 18.8449 20 18.3846 20H5.61538ZM9.73845 14.9692L9.03077 14.2615L18.2923 5H14V4H20V10H19V5.7077L9.73845 14.9692Z" fill="#1C1B1F"/>
-                          </g>
-                        </svg>
-                      </a>
-                    </h4>
-                  </div>
-                  <div>Villa Oasis is a drug and alcohol treatment center that wanted to redesign their site to highlight their incredible facility and the level of care that they offer. </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="row w-100">
-              <div data-aos="fade-right" class="col-12 col-sm-3">
-                <img src="assets/websitePreviews/preview_3T.webp" class="w-100 h-100 object-fit-cover card--portfolio-img" alt="A website preview of the first paint of 3throneshospitality.com"/>
-              </div>
-              <div data-aos="fade" class="col-12 col-sm-9 p-4 d-flex flex-column justify-content-between">
-                <div class="w-100">
-                  <div class="d-flex flex-row gap-2">
-                    <h4 class="fs-6 fw-bold">
-                      <a href="https://3throneshospitality.com/" target="_blank" rel="nofollow noreferrer" class="d-flex flex-row gap-2">
-                        3 Thrones Hospitality
-                        <svg width="18px" height="18px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <mask id="mask0_130_122" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
-                          <rect width="24" height="24" fill="#D9D9D9"/>
-                          </mask>
-                          <g mask="url(#mask0_130_122)">
-                          <path d="M5.61538 20C5.15513 20 4.77083 19.8458 4.4625 19.5375C4.15417 19.2292 4 18.8449 4 18.3846V5.61537C4 5.15512 4.15417 4.77083 4.4625 4.4625C4.77083 4.15417 5.15513 4 5.61538 4H11.2308V5H5.61538C5.46154 5 5.32052 5.0641 5.1923 5.1923C5.0641 5.32052 5 5.46154 5 5.61537V18.3846C5 18.5385 5.0641 18.6795 5.1923 18.8077C5.32052 18.9359 5.46154 19 5.61538 19H18.3846C18.5385 19 18.6795 18.9359 18.8077 18.8077C18.9359 18.6795 19 18.5385 19 18.3846V12.7692H20V18.3846C20 18.8449 19.8458 19.2292 19.5375 19.5375C19.2292 19.8458 18.8449 20 18.3846 20H5.61538ZM9.73845 14.9692L9.03077 14.2615L18.2923 5H14V4H20V10H19V5.7077L9.73845 14.9692Z" fill="#1C1B1F"/>
-                          </g>
-                        </svg>
-                      </a>
-                    </h4>
-                  </div>
-                  <div>3 Thrones is a hospitality investment firm that was looking for a portfolio site. The challenge was to create attractive and unique design to showcase their investments and properties.</div>
-                </div>
-              </div>
-            </div>
-
-            <div class="row w-100">
-              <div class="col-12 col-sm-3" data-aos="fade-right">
-                <img src="assets/websitePreviews/preview_RefreshTMS.webp" class="w-100 h-100 object-fit-cover card--portfolio-img" alt="A website preview of the first paint of refreshtms.com"/>
-              </div>
-              <div class="col-12 col-sm-9 p-4 d-flex flex-column justify-content-between" data-aos="fade">
-                <div class="w-100">
-                  <div class="d-flex flex-row gap-2">
-                    <h4 class="fs-6 fw-bold">
-                      <a href="https://refreshtms.com/" target="_blank" rel="nofollow noreferrer" class="d-flex flex-row gap-2">
-                        Refresh TMS
-                        <svg width="18px" height="18px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <mask id="mask0_130_122" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
-                          <rect width="24" height="24" fill="#D9D9D9"/>
-                          </mask>
-                          <g mask="url(#mask0_130_122)">
-                          <path d="M5.61538 20C5.15513 20 4.77083 19.8458 4.4625 19.5375C4.15417 19.2292 4 18.8449 4 18.3846V5.61537C4 5.15512 4.15417 4.77083 4.4625 4.4625C4.77083 4.15417 5.15513 4 5.61538 4H11.2308V5H5.61538C5.46154 5 5.32052 5.0641 5.1923 5.1923C5.0641 5.32052 5 5.46154 5 5.61537V18.3846C5 18.5385 5.0641 18.6795 5.1923 18.8077C5.32052 18.9359 5.46154 19 5.61538 19H18.3846C18.5385 19 18.6795 18.9359 18.8077 18.8077C18.9359 18.6795 19 18.5385 19 18.3846V12.7692H20V18.3846C20 18.8449 19.8458 19.2292 19.5375 19.5375C19.2292 19.8458 18.8449 20 18.3846 20H5.61538ZM9.73845 14.9692L9.03077 14.2615L18.2923 5H14V4H20V10H19V5.7077L9.73845 14.9692Z" fill="#1C1B1F"/>
-                          </g>
-                        </svg>
-                      </a>
-                    </h4>
-                  </div>
-                  <div>Refresh TMS is a mental health facility who's site needed a visual overhaul. This was my first project at Webserv and was a wonderful learning experience to put design principles into practice.</div>
-                </div>
+              <div id="websiteModals">
               </div>
             </div>
 
@@ -303,6 +79,7 @@
       </div>
     </main>
     <footer-component></footer-component>
+    
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
         AOS.init({

@@ -6,7 +6,7 @@ $(document).ready(function () {
         let website = allSites[i];
 
         $('#websiteList').append(
-            $("<div class='col-12 col-md-4 col-sm-6 p-2' data-aos='fade'>"+
+            $("<div class='col-12 col-lg-3 col-md-4 col-sm-6 p-2' data-aos='fade'>"+
                 "<a class='pointer' data-bs-toggle='modal' data-bs-target='#"+ website.id +"Modal'>" +
                 "<img class='previewImg' src='"+ website.thumbImg +"' alt='"+ website.imgAlt +"'>"+
                 "</a>" +
@@ -26,6 +26,24 @@ $(document).ready(function () {
 
 var sitesJSON = `{
     "websites": [
+        {
+            "name": "Higher Purpose Recovery Outpatient",
+            "url": "https://hproutpatient.com/",
+            "date":"",
+            "id":"hproutpatient",
+            "thumbImg": "assets/websitePreviews/preview_hprOutpatient.webp",
+            "imgAlt": "A website preview of the first paint of hproutpatient.com",
+            "desc": ""
+        },
+        {
+            "name": "AM Healthcare",
+            "url": "https://amhealthcare.org/",
+            "date":"",
+            "id":"amhealthcare",
+            "thumbImg": "assets/websitePreviews/preview_amHealthcare.webp",
+            "imgAlt": "A website preview of the first paint of amhealthcare.org",
+            "desc": ""
+        },
         {
             "name": "Summus Laser",
             "url": "https://summuslaser.com/",

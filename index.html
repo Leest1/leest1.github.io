@@ -17,38 +17,41 @@
     <link rel="icon" type="image/svg+xml" href="./assets/lee.svg">
   </head>
   <body>
-    <main class="overflow--hidden container-fluid p-0 bg-white">
+    <main class="container-fluid p-0 bg-white">
       <!-- NAVIGATION -->
-      <div class="sticky-top row p-0 navigation bg-white">
+      <div class="p-0 navigation">
         <header-component></header-component>
       </div>
       
-      <div class="row p-0">
+      <div class="p-0">
         <div class="col-12 p-0 gap-2 d-flex flex-column">
 <!-- HERO -->
-          <div class="w-100 row p-0 m-0 overflow--hidden">
-            <div class="col-12 col-sm-5 order-sm-first order-last p-0">
-              <img src="assets/shannonLee.webp" class="w-100 h-100 object-fit-cover h-sm-30" alt="A professional picture of Shannon Lee sitting on a park bench and smiling on a sunny day. She has her hair in a pony tail and is wearing a white checkered shirt and jean shorts."/>
-            </div>
-            <div class="col-12 col-sm-7 col-lg-5 p-5 gap-3 d-flex flex-column justify-content-center">
-              <div class="d-flex flex-column gap-2">
-                <div class="text-uppercase">
-                  <span data-aos="fade">Designer</span>
-                  <span data-aos="fade" data-aos-delay="250"> ∙ Programmer</span>
-                  <span data-aos="fade" data-aos-delay="500"> ∙ Artist</span>
-                </div>
-                <h1 class="text-uppercase" data-aos="fade" data-aos-delay="500">Shannon Lee</h2>
+          <div class="w-100 container p-0">
+            <div class="w-100 row">
+              <div class="col-12 col-sm-5 order-sm-first order-last p-0 position-relative">
+                <img src="assets/shannonLee.webp" class="w-100 h-100 object-fit-cover h-sm-30 py-5 position-relative z-1" alt="A professional picture of Shannon Lee sitting on a park bench and smiling on a sunny day. She has her hair in a pony tail and is wearing a white checkered shirt and jean shorts."/>
+                <div class="bg--gray-rect"></div>
               </div>
-              <p data-aos="fade">I'm a UX/UI Designer with a B.S. in computer science. My goal is to develop accessible products that spark delight.
-              </p>
+              <div class="col-12 col-sm-7 col-lg-5 p-5 gap-3 d-flex flex-column justify-content-center">
+                <div class="d-flex flex-column gap-2">
+                  <div class="text-uppercase">
+                    <span data-aos="fade">Designer</span>
+                    <span data-aos="fade" data-aos-delay="250"> ∙ Programmer</span>
+                    <span data-aos="fade" data-aos-delay="500"> ∙ Artist</span>
+                  </div>
+                  <h1 class="text-uppercase" data-aos="fade" data-aos-delay="500">Shannon Lee</h2>
+                </div>
+                <p data-aos="fade">I'm a UX/UI Designer with a B.S. in computer science. My goal is to develop accessible products that spark delight.
+                </p>
+              </div>
             </div>
           </div>
           <!-- CASE STUDIES -->
-          <div class="w-100 m-0 py-5 d-flex flex-column gap-4 align-items-center overflow--hidden">
+          <div class="w-100 m-0 py-5 d-flex flex-column gap-4 align-items-center">
             <h2 class="text-uppercase" data-aos="fade-down">My Case Studies</h2>
             <div class="d-flex flex-column gap-2 col-12 p-0 projectList">
               <!-- MDES Case study -->
-              <div class="w-100 border-radius--s py-5 bg--mdes card" data-aos="fade">
+              <div class="w-100 border-radius--s py-5 bg--mdes card mobile-card-overlay" data-aos="fade">
                 <div class="container height-full">
                   <div class="d-flex flex-column gap-2 justify-content-between height-full content">
                     <div class="d-flex flex-column gap-4">
@@ -59,19 +62,19 @@
                         <div class="chip-dark">Information Architecture</div>
                         <div class="chip-dark">Wireframing/Prototyping</div>
                       </div>
-                      <div class="text-white">
+                      <div>
                         <h3 class="h3 text-uppercase fw-light ls-sm">MDES Website Redesign</h3>
                         <p>
                           Redesigned the MDES website in order to improve the process of applying for unemployment aid. Goal was to increase conversion rate of application completion and alleviate any questions or concerns by rethinking the process and content hierarchy.
                         </p>
                       </div>
                     </div>
-                    <a class="fs-5 fw-medium text-white" href="/mdes">Read the case study →</a>
+                    <a class="fs-6 fw-medium" href="/mdes">Read the case study →</a>
                   </div>
                 </div>
               </div>
               <!-- Nom Noms Case Study -->
-              <div class="w-100 border-radius--s py-5 bg--nomnoms card" data-aos="fade">
+              <div class="w-100 border-radius--s py-5 bg--nomnoms card mobile-card-overlay" data-aos="fade">
                 <div class="container height-full">
                   <div class="d-flex flex-column gap-2 justify-content-between height-full content">
                     <div class="d-flex flex-column gap-4">
@@ -89,12 +92,12 @@
                         </p>
                       </div>
                     </div>
-                    <a class="fs-5 fw-medium" href="/mdes">Read the case study →</a>
+                    <a class="fs-6 fw-medium" href="https://drive.google.com/file/d/1Jv69attDovKJIbFtwjBwZ3nryIQ2AZK-/view?usp=sharing" target="_blank">Read the case study →</a>
                   </div>
                 </div>
               </div>
               <!-- Prado Health Case Study -->
-              <div class="w-100 border-radius--s py-5 bg--pradoHealth card" data-aos="fade">
+              <div class="w-100 border-radius--s py-5 bg--pradoHealth card mobile-card-overlay" data-aos="fade">
                 <div class="container height-full">
                   <div class="d-flex flex-column gap-2 justify-content-between height-full content">
                     <div class="d-flex flex-column gap-4">
@@ -112,14 +115,14 @@
                         </p>
                       </div>
                     </div>
-                    <a class="fs-5 fw-medium" href="/mdes">Read the case study →</a>
+                    <a class="fs-6 fw-medium" href="https://drive.google.com/file/d/16eJtUMot40QlGE2W_Ufn4iOuAONr2p7m/view?usp=sharing" target="_blank">Read the case study →</a>
                   </div>
                 </div>
               </div>
             </div>
           </div>
           <!-- WEBSITES -->
-          <div class="w-100 m-0 bg-gray p-5 d-flex flex-column gap-2 align-items-center overflow--hidden">
+          <div class="w-100 m-0 bg-gray py-5 d-flex flex-column gap-2 align-items-center overflow--hidden">
             <div class="w-100 d-flex flex-column align-items-center">
               <h2 class="text-uppercase" data-aos="fade-down">Website Design</h2>
               <p data-aos="fade" class="fs-7 ms-1">Projects are ordered by newest to oldest. Click to learn more!</p>
@@ -133,10 +136,10 @@
             </div>
           </div>
           <!-- TESTIMONIAL -->
-          <div class="w-100 m-0 p-5 d-flex flex-column align-items-center justify-content-center section--testimonial" style="min-height:45vh">
+          <div class="w-100 m-0 py-5 d-flex flex-column align-items-center justify-content-center section--testimonial" style="min-height:45vh">
             <div class="container align-items-center d-flex flex-column gap-3">
-              <p class="fs-5 text-center">"If you are looking for an exceptional individual who constantly excels in their processes, contributes positively to the team environment, and cares passionately about the quality put into their work, Shannon is your person."</p>
-              <div class="d-flex flex-row gap-2 align-items-center">
+              <p class="fs-5 text-center" data-aos="fade-down">"If you are looking for an exceptional individual who constantly excels in their processes, contributes positively to the team environment, and cares passionately about the quality put into their work, Shannon is your person."</p>
+              <div class="d-flex flex-row gap-2 align-items-center" data-aos="fade-up" data-aos-delay="250">
                 <img src="assets/webservLogo.png" alt="Webserv logo" style="border-radius:4px; width:28px" />
                 <span>Ara B.</span>
                 <span style="font-style: italic;color:#4D4D4D">Director of Design</span>
@@ -144,7 +147,9 @@
             </div>
           </div>
           <!-- CONTACT ME -->
-          <contact-component></contact-component>
+          <div class="w-100 container p-0">
+            <contact-component></contact-component>
+          </div>
         </div>
       </div>
     </main>

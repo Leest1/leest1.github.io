@@ -18,7 +18,7 @@ class Header extends HTMLElement {
                     </div>
                     <div class="d-flex flex-row gap-4 align-items-center textNavigation">
                         <div class="navLink">
-                            <a class="text-uppercase text-link d-inline-block fs-6" href="/websiteDesign">Work</a>
+                            <a class="text-uppercase text-link d-inline-block fs-6" href="/work">Work</a>
                         </div>
                         <div class="navLink">
                             <a class="text-uppercase fs-6 text-link d-inline-block" href="/about">About</a>
@@ -80,16 +80,10 @@ class Header extends HTMLElement {
                         <a class="text-uppercase fs-6 text-link d-inline-block" href="/index">Home</a>
                     </div>
                     <div>
+                    <a class="text-uppercase text-link d-inline-block fs-6" href="/work">Work</a>
+                    </div>
+                    <div>
                         <a class="text-uppercase fs-6 text-link d-inline-block" href="/about">About</a>
-                    </div>
-                    <div>
-                        <a class="text-uppercase text-link d-inline-block fs-6" href="/websiteDesign">Website Design</a>
-                    </div>
-                    <div>
-                        <a class="text-uppercase text-link d-inline-block fs-6" href="/projects">UI/UX Projects</a>
-                    </div>
-                    <div>
-                        <a class="text-uppercase text-link d-inline-block fs-6" href="/logo">Logo Design</a>
                     </div>
                     <div class="d-flex flex-row gap-4 mt-2">
                         <a href="mailto:shannontlee96@gmail.com" style="width:32px">

@@ -34,6 +34,9 @@ a {
 .navigation {
   z-index: 999;
   box-shadow: 0px 4px 16px rgba(0,0,0,0.05);
+  background-color: white;
+  position: sticky;
+  top: 0;
 }
 
 .hero {
@@ -77,7 +80,8 @@ a {
 }
 
 .projectList .bg--mdes {
-  background-image: url(assets/backgrounds/bg-mdes.webp), linear-gradient(120deg,  #325187, #002565);
+  background-image: url(assets/backgrounds/bg-mdes.webp);
+  background-color: #E1E9F0;
   background-repeat: no-repeat;
   background-position: top right;
   background-size: auto 100%;
@@ -195,17 +199,32 @@ a {
   border-radius: 100px;
 }
 
-.galleria {
-  width: 1120px;
-  height: 1000px;
-}
-
-body .galleria-thumbnails .galleria-image { 
-  width:325px !important;
-}
-
 .galleria-theme-folio .galleria-stage {
   background: rgba(0,0,0,0.75);
+}
+
+.content-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.toc {
+  position: sticky;
+  top: 70px;
+}
+
+.toc-mdes .nav-link {
+  color: black;
+}
+
+.toc-mdes .nav-pills .nav-link.active {
+  background-color: #476393;
+}
+
+.toc-mdes .list-group-item.active {
+  background-color: #476393;
+  border-color: #476393;
 }
 
 .number-container {
@@ -263,6 +282,16 @@ body .galleria-thumbnails .galleria-image {
   background-color: #F7F7F7;
 }
 
+.bg--gray-rect {
+  position: absolute;
+  background-color: #F7F7F7;
+  width:100%;
+  height:100%;
+  top:0;
+  right:50%;
+  z-index:0;
+}
+
 .fs-7 {
   font-size: 14px;
 }
@@ -310,6 +339,7 @@ body .galleria-thumbnails .galleria-image {
   background-color: rgba(0,0,0,0.75);
   padding: 5rem 7rem;
   max-width: 600px;
+  min-width:400px;
 }
 
 .offcanvas {
@@ -337,6 +367,20 @@ body .galleria-thumbnails .galleria-image {
 @media (max-width: 576px)  {
   .h-sm-30 {
     height: 300px !important;
+  }
+
+  .mobile-card-overlay {
+    background-image: none !important;
+  }
+
+  .subpageHeroContainer {
+    padding: 3rem;
+    max-width: 600px;
+    min-width:80%;
+  }
+
+  .display-none-mobile {
+    display: none;
   }
 }
 
@@ -383,9 +427,3 @@ body .galleria-thumbnails .galleria-image {
     width: 100% !important;
   }
 }
-
-@media (min-width: 1200px) { 
-  .navigation {
-    border-left: 1px solid #d9d9d9;
-  }
- }

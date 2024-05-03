@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>UI/UX Projects | Shannon Lee</title>
+    <title>Work | Shannon Lee</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
@@ -12,17 +12,18 @@
     <script src="components/header.js" type="text/javascript" defer></script>
     <script src="components/footer.js" type="text/javascript" defer></script>
     <script src="components/contact.js" type="text/javascript" defer></script>
+    <script src="components/websites.js"></script>
     <link href="./style.css" rel="stylesheet">
     <link rel="icon" type="image/svg+xml" href="./assets/lee.svg">
   </head>
   <body>
     <main class="container-fluid p-0 bg-white">
       <!-- NAVIGATION -->
-      <div class="sticky-top row p-0 navigation bg-white">
+      <div class="p-0 navigation">
         <header-component></header-component>
       </div>
       
-      <div class="row p-0">
+      <div class="p-0">
         <div class="col-12 p-0 gap-2 d-flex flex-column">
 <!-- HERO -->
           <div class="w-100 hero projectsHero d-flex flex-column align-items-center p-4 m-0">
@@ -36,8 +37,9 @@
             </div>
           </div>
 
-<!-- PROJECTS -->
-          <div class="w-100 m-0 p-5 d-flex flex-column gap-4 align-items-start">
+        <!-- PROJECTS -->
+        <div class="w-100 py-5 container">
+          <div class="w-100 d-flex flex-column gap-4 align-items-start">
             <div class="row w-100">
               <div data-aos="fade-right" class="col-12 col-sm-4">
                 <img src="assets/caseStudies/mdes.webp" class="w-100 h-100 object-fit-cover" alt="A preview of the product of the MDES Redesign on a staged laptop and mobile phone"/>
@@ -89,7 +91,7 @@
                 <a href="https://drive.google.com/file/d/16eJtUMot40QlGE2W_Ufn4iOuAONr2p7m/view?usp=sharing" target="_blank" class="text-decoration-underline">View Case Study (PDF)</a>
               </div>
             </div>
-            <div class="row w-100">
+            <!-- <div class="row w-100">
               <div data-aos="fade-right" class="col-12 col-sm-4">
                 <img src="assets/caseStudies/thumb-fridgemate.webp" class="w-100 h-100 object-fit-cover" alt="A preview of the mobile product of FridgeMate on a staged mobile app"/>
               </div>
@@ -122,11 +124,38 @@
                 </div>
                 <a href="assets/caseStudies/endless-odyssey.pdf" target="_blank" class="text-decoration-underline">View Mini Case Study (PDF)</a>
               </div>
+            </div> -->
+          </div>
+        </div>
+        <!-- TESTIMONIAL -->
+        <div class="w-100 m-0 py-5 d-flex flex-column align-items-center justify-content-center section--testimonial" style="min-height:45vh">
+          <div class="container align-items-center d-flex flex-column gap-3">
+            <p class="fs-5 text-center" data-aos="fade-down">"If you are looking for an exceptional individual who constantly excels in their processes, contributes positively to the team environment, and cares passionately about the quality put into their work, Shannon is your person."</p>
+            <div class="d-flex flex-row gap-2 align-items-center" data-aos="fade-up" data-aos-delay="250">
+              <img src="assets/webservLogo.png" alt="Webserv logo" style="border-radius:4px; width:28px" />
+              <span>Ara B.</span>
+              <span style="font-style: italic;color:#4D4D4D">Director of Design</span>
             </div>
           </div>
+        </div>
+        <!-- WEBSITES -->
+        <div class="w-100 m-0 bg-gray py-5 d-flex flex-column gap-2 align-items-center overflow--hidden">
+          <div class="w-100 d-flex flex-column align-items-center">
+            <h2 class="text-uppercase" data-aos="fade-down">Website Design</h2>
+            <p data-aos="fade" class="fs-7 ms-1">Projects are ordered by newest to oldest. Click to learn more!</p>
+          </div>
 
-<!-- CONTACT ME -->
+          <div class="container">
+            <div id="websiteList" class="row w-100">
+            </div>
+            <div id="websiteModals">
+            </div>
+          </div>
+        </div>
+        <!-- CONTACT ME -->
+        <div class="w-100 container p-0">
           <contact-component></contact-component>
+        </div>
         </div>
       </div>
     </main>

@@ -114,6 +114,16 @@ a {
   background-size: cover;
 }
 
+.bg--nomnoms {
+  background: url("./assets/caseStudies/NomNoms/bg-nomnoms.webp") no-repeat center center;
+  background-size: cover;
+}
+
+.bg--pradohealth {
+  background: url("./assets/caseStudies/pradoHealth/bg-pradohealth.webp") no-repeat center center;
+  background-size: cover;
+}
+
 .section--mdesMindMap {
   background: url(assets/caseStudies/MDES/mdes_mind-map.webp) rgba(11,36,80, 0.7);
   background-repeat: no-repeat;
@@ -149,7 +159,7 @@ a {
 }
 
 .border-radius--l {
-  border-radius: 16px;
+  border-radius: 12px;
 }
 
 .ls-sm {
@@ -209,22 +219,49 @@ a {
   gap: 1rem;
 }
 
+.icon-heading {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+}
+
 .toc {
   position: sticky;
   top: 70px;
 }
 
-.toc-mdes .nav-link {
+.toc .nav-link {
   color: black;
 }
 
-.toc-mdes .nav-pills .nav-link.active {
+.caseStudy-mdes .nav-pills .nav-link.active {
   background-color: #476393;
 }
 
-.toc-mdes .list-group-item.active {
+.caseStudy-mdes .list-group-item.active {
   background-color: #476393;
   border-color: #476393;
+}
+
+.caseStudy-nomnoms .nav-pills .nav-link.active {
+  background-color: #AD5151;
+}
+
+.caseStudy-nomnoms .list-group-item.active {
+  background-color: #AD5151;
+  border-color: #AD5151;
+}
+
+.caseStudy-pradohealth .nav-pills .nav-link.active {
+  background-color: #A1AFA0;
+}
+
+.caseStudy-pradohealth .list-group-item.active {
+  background-color: #A1AFA0;
+  border-color: #A1AFA0;
 }
 
 .number-container {
@@ -241,14 +278,6 @@ a {
   align-items: center;
   justify-content: center;
   border-radius: 8px;
-}
-
-.bg-mdes-blue {
-  background-color: #476393;
-}
-
-.bg-mdes-blue-dark {
-  background-color: #295390;
 }
 
 .color-sample {
@@ -290,6 +319,61 @@ a {
   top:0;
   right:50%;
   z-index:0;
+}
+
+.caseStudy-nomnoms .bg-accent {
+  background-color: #FDF2E3 !important;
+}
+
+.caseStudy-nomnoms .bg-primary {
+  background-color: #AD5151 !important;
+}
+
+
+.caseStudy-mdes .bg-primary {
+  background-color: #476393 !important;
+}
+
+.caseStudy-mdes .bg-primary-dark {
+  background-color: #295390 !important;
+}
+
+.caseStudy-pradohealth .bg-primary {
+  background-color: #A1AFA0 !important;
+}
+
+.caseStudy-pradohealth .bg-accent {
+  background-color: #FCF6E4 !important;
+}
+
+.caseStudy-pradohealth .carousel-indicators {
+  bottom: -60px
+}
+
+.caseStudy-pradohealth .carousel-control-next, .caseStudy-pradohealth .carousel-control-prev {
+  width: auto;
+}
+
+.caseStudy-pradohealth .hero-mockup {
+  position: absolute;
+  right: -300px;
+  bottom: -300px;
+  width: 500px;
+}
+
+@media (max-width: 860px)  {
+  .caseStudy-pradohealth .hero-mockup {
+    right: -250px;
+    bottom: -250px;
+    width:400px;
+  }
+}
+@media (max-width: 576px)  {
+  .caseStudy-pradohealth .hero-mockup {
+    right: -150px;
+    bottom: -300px;
+    width:300px;
+  }
 }
 
 .fs-7 {

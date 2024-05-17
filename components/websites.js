@@ -6,7 +6,7 @@ $(document).ready(function () {
         let website = allSites[i];
 
         $('#websiteList').append(
-            $("<div class='col-12 col-lg-3 col-md-4 col-sm-6 p-2' data-aos='fade'>"+
+            $("<div class='col' data-aos='fade'>"+
                 "<a class='pointer' data-bs-toggle='modal' data-bs-target='#"+ website.id +"Modal'>" +
                 "<img class='previewImg' src='"+ website.thumbImg +"' alt='"+ website.imgAlt +"'>"+
                 "</a>" +

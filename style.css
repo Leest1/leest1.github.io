@@ -193,7 +193,7 @@ a {
 
 .chip-dark {
   padding: 6px 20px;
-  background-color: rgba(255,255,255,0.9);
+  background-color: #FFFFFF;
   font-size: 14px;
   font-weight: 600;
   color: #171717;
@@ -202,7 +202,7 @@ a {
 
 .chip-light {
   padding: 6px 20px;
-  background-color: rgba(0,0,0,0.1);
+  background-color: #E6E6E6;
   font-size: 14px;
   font-weight: 600;
   color: #000000;
@@ -448,13 +448,22 @@ a {
   background-color: transparent;
 }
 
+@media (max-width: 1400px)  {
+  .mobile-card-desc {
+    background-color: rgba(255,255,255,0.85);
+    padding: 2rem !important;
+    border-radius: 12px;
+  }
+}
+
 @media (max-width: 576px)  {
   .h-sm-30 {
     height: 300px !important;
   }
 
-  .mobile-card-overlay {
-    background-image: none !important;
+  #contactMeImg {
+    height:400px !important;
+    object-position: 50% 25%;
   }
 
   .subpageHeroContainer {
